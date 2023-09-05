@@ -1,3 +1,5 @@
+package com.cineplex.clone.Model;
+
 public class Filme {
     private String titulo;
     private String diretor;

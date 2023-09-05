@@ -1,10 +1,15 @@
+package com.cineplex.clone.Main;
+
+import com.cineplex.clone.Model.Cinema;
+import com.cineplex.clone.Model.Filme;
+
 public class Main {
     public static void main(String[] args) {
 
         Filme filme = new Filme("Vingadores: Ultimato", "Anthony Russo, Joe Russo", 182, "Ação", 15.0);
 
 
-        Cinema cinema = new Cinema("Cineplex", "123 Main St", 100);
+        Cinema cinema = new Cinema("Cineplex", "123 com.cineplex.clone.Main.Main St", 100);
 
 
         cinema.setFilmeEmExibicao(filme);
